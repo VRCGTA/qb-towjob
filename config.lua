@@ -2,7 +2,7 @@ Config = {}
 
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 
-Config.BailPrice = 250
+Config.BailPrice = 600
 
 Config.Vehicles = {
     ["flatbed"] = "Flatbed",
