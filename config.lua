@@ -6,6 +6,7 @@ Config.BailPrice = 600
 
 Config.Vehicles = {
     ["flatbed"] = "Flatbed",
+    ["slamtruck"] = "Slamtruck",
 }
 
 Config.Locations = {
