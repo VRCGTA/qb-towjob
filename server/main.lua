@@ -43,11 +43,11 @@ RegisterNetEvent('qb-tow:server:nano', function(vehNetID)
         return DropPlayer(src, Lang:t('info.skick'))
     end
 
-    local chance = math.random(1, 100)
-    if chance < 26 then
-        Player.Functions.AddItem('cryptostick', 1, false)
-        TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items['cryptostick'], 'add')
-    end
+    -- local chance = math.random(1, 100)
+    -- if chance < 26 then
+    --     Player.Functions.AddItem('cryptostick', 1, false)
+    --     TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items['cryptostick'], 'add')
+    -- end
 end)
 
 RegisterNetEvent('qb-tow:server:11101110', function(drops)
@@ -63,7 +63,7 @@ RegisterNetEvent('qb-tow:server:11101110', function(drops)
 
     drops = tonumber(drops)
     local bonus = 0
-    local DropPrice = math.random(150, 170)
+    local DropPrice = math.random(150*25, 170*25)
     if drops > 5 then
         bonus = math.ceil((DropPrice / 10) * 5)
     elseif drops > 10 then
