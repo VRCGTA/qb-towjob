@@ -5,7 +5,7 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 Config.BailPrice = 600
 
 Config.Vehicles = {
-    ["flatbed"] = "Flatbed",
+    -- ["flatbed"] = "Flatbed",
     ["slamtruck"] = "Slamtruck",
 }
 
@@ -15,7 +15,7 @@ Config.Locations = {
         coords = vector4(471.39, -1311.03, 29.21, 114.5),
     },
     ["vehicle"] = {
-        label = "Flatbed",
+        label = "Slamtruck",
         coords = vector4(489.65, -1331.82, 29.33, 306.5),
     },
     ["dropoff"] = {
